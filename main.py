@@ -73,7 +73,7 @@ class Graph:
         for u, v, weight in result:
             print("%d - %d: %d" % (u, v, weight))
 
-g = Graph(7)
+g = Graph(v)
 for i in textArray:
     g.add_edge(i[0], i[1], i[2])
 g.kruskal_algo()
